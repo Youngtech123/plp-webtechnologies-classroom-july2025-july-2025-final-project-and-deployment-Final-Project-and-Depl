@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ReviewHub - Home</title>
+  
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🎬📚 ReviewHub</a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="reviews.html" class="nav-link">All Reviews</a></li>
+          <li class="nav-item"><a href="add-review.html" class="nav-link">Add Review</a></li>
+          <li class="nav-item"><a href="details.html" class="nav-link">Sample Review</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="text-center py-5 bg-light">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to ReviewHub</h1>
+      <p class="lead mb-4">Your place to share and discover honest reviews of movies and books.</p>
+      <a href="reviews.html" class="btn btn-primary btn-lg">Browse Reviews</a>
+    </div>
+  </header>
+
+  <!-- Featured Reviews -->
+  <main class="container my-5">
+    <h2 class="mb-4 text-center fw-semibold">Featured Reviews</h2>
+    <div class="row g-4">
+      <!-- Inception -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="/assets/inception_poster.jpeg" class="card-img-top" alt="Inception poster" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Inception</h5>
+            <p class="card-text flex-grow-1">A mind-bending thriller with stunning visuals.</p>
+            <a href="details.html" class="btn btn-primary btn-sm mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- The Hobbit -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="/assets/book_poster.jpeg" class="card-img-top" alt="The Hobbit poster" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">The Hobbit</h5>
+            <p class="card-text flex-grow-1">An epic fantasy filled with adventure.</p>
+            <a href="details.html" class="btn btn-primary btn-sm mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Avatar -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="/assets/avatar_poster.jpeg" class="card-img-top" alt="Avatar poster" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Avatar</h5>
+            <p class="card-text flex-grow-1">A visually stunning sci-fi adventure.</p>
+            <a href="details.html" class="btn btn-primary btn-sm mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Lord of the Rings -->
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card h-100 shadow-sm">
+          <img src="/assets/ring_poster .jpeg" class="card-img-top" alt="Lord of the Rings poster" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Lord of the Rings</h5>
+            <p class="card-text flex-grow-1">An epic fantasy trilogy with unforgettable characters.</p>
+            <a href="details.html" class="btn btn-primary btn-sm mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-dark text-white mt-5">
+    <p class="mb-0">&copy; 2025 ReviewHub | PLP Final Project</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
